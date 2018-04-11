@@ -11,14 +11,14 @@ Log database queries into file.
 
 Install package via composer
 ```
-$ composer require lemberg/laravel-query-log
+$ composer require lemberg/laravel-query-logs
 ```
 
 ### Register Service Provider (Only for Laravel 5.4)
 
 ```
 'providers' => [
-    Lemberg\LaraveQueryLog\ServiceProvider::class,
+    Lemberg\LaraveQueryLogs\ServiceProvider::class,
 ],
 ```
 
