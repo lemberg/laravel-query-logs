@@ -25,7 +25,7 @@ $ composer require lemberg/laravel-query-log
 ### Publish Configuration File
 
 ```
-php artisan vendor:publish --provider="Lemberg\LaravelQueryLog\ServiceProvider" --tag="config"
+php artisan vendor:publish --provider="Lemberg\LaravelQueryLogs\ServiceProvider" --tag="config"
 ```
 
 ## Usage
