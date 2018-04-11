@@ -1,0 +1,36 @@
+{
+  "name": "lemberg/laravel-query-log",
+  "description": "A query log",
+  "license": "MIT",
+  "keywords": [
+    "query",
+    "log"
+  ],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Nazar Saikevych",
+      "email": "nazar.saikevych@lemberg.co.ua"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lemberg\\LaravelQueryLog\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Lemberg\\LaravelQueryLog\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
