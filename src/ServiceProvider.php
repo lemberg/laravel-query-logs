@@ -1,6 +1,6 @@
 <?php
 
-namespace Lemberg\LaravelQueryLog;
+namespace Lemberg\LaravelQueryLogs;
 
 use Illuminate\Support\Facades\DB;
 use Monolog\Handler\StreamHandler;
@@ -16,7 +16,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
             self::CONFIG_PATH => config_path('query-log.php'),
         ], 'config');
 
-        $this->writeQueryLog();
+        $this->writeLogs();
     }
 
     public function register()
@@ -27,7 +27,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
         );
     }
 
-    protected function writeQueryLog()
+    protected function writeLogs()
     {
         if (config('query-log.active') === true) {
             DB::listen(function ($query) {

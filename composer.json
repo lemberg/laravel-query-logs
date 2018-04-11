@@ -1,9 +1,9 @@
 {
-    "name": "lemberg/laravel-query-log",
-    "description": "A query log",
+    "name": "lemberg/laravel-query-logs",
+    "description": "",
     "license": "Apache-2.0",
     "homepage": "https://github.com/lemberg/laravel-query-logs",
-    "keywords": ["query", "log"],
+    "keywords": ["laravel", "query", "log"],
     "authors": [
         {
             "name": "Nazar Saikevych",
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Lemberg\\LaravelQueryLog\\": "src"
+            "Lemberg\\LaravelQueryLogs\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lemberg\\LaravelQueryLog\\ServiceProvider"
+                "Lemberg\\LaravelQueryLogs\\ServiceProvider"
             ]
         }
     },

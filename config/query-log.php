@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'active' => env('QUERY_LOG', false),
+    'active' => env('QUERY_LOGS', false),
     'path' => storage_path('/logs/sql.log'),
 ];
