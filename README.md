@@ -30,7 +30,7 @@ php artisan vendor:publish --provider="Lemberg\LaravelQueryLogs\ServiceProvider"
 
 ## Usage
 
-1. Add  `QUERY_LOGS=true` to .env file.<br/>
+1. Add `QUERY_LOGS=true` to .env file.<br/>
 
 2. By default queries will store into `/storage/logs/sql.log` file.<br/> 
 You can change it by editing the `path` option in `query-log.php` file
