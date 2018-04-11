@@ -1,6 +1,6 @@
 # Laravel Query Log
 
-Package description: CHANGE ME
+Log database queries into file.
 
 ## Requirements
 
@@ -24,13 +24,18 @@ $ composer require lemberg/laravel-query-log
 
 ### Publish Configuration File
 
-```bash
-php artisan vendor:publish --provider="Lemberg\LaraveQueryLog\ServiceProvider" --tag="config"
+```
+php artisan vendor:publish --provider="Lemberg\LaravelQueryLog\ServiceProvider" --tag="config"
 ```
 
 ## Usage
 
-CHANGE ME
+1. Add  `QUERY_LOG=true` to .env file.<br/>
+
+2. By default queries will store into `/storage/logs/sql.log` file.<br/> 
+You can change it by editing the `path` option in `query-log.php` file
+
+Actually that's all:) 
 
 ## License
 
