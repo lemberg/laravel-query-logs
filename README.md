@@ -39,4 +39,4 @@ Actually that's all:)
 
 ## License
 
-The Apache License. Please see [License File](LICENSE.md) for more information.
+Please see [License File](LICENSE.md) for more information.
