@@ -1,7 +1,7 @@
 {
     "name": "lemberg/laravel-query-logs",
     "description": "",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "homepage": "https://github.com/lemberg/laravel-query-logs",
     "keywords": ["laravel", "query", "log"],
     "authors": [
