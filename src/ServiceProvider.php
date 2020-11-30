@@ -42,7 +42,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
                 $fullSql = vsprintf($sql, $query->bindings);
 
                 // Start logging
-                $monolog->addInfo('SQL', array('time' => $query->time, 'query' => $fullSql));
+                $monolog->addRecord(Logger::INFO, 'SQL', array('time' => $query->time, 'query' => $fullSql));
             });
         }
     }
